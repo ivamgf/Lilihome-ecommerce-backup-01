@@ -1,0 +1,277 @@
+@import "../../../../../styles";
+
+.page-categorias{
+  padding-bottom: 5%;
+  padding-top: 2%;
+  background-color: #f0f0f0;
+  height: 2300px;
+}
+
+.menu-lista{
+    text-align: center;
+    color: #000000;
+    font-family: "LILIHOME-OpenSans";
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.input-list-menu{
+    text-align: left;
+    cursor: -webkit-grab;
+}
+
+.ordenacao-preco{
+    text-align: right;
+}
+
+.style-produtos{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    height: 450px;
+}
+
+.style-produtos-veja{
+  padding-bottom: 10%;
+  height: 450px;
+}
+
+.card-produto{
+    margin-top: 10px;
+    margin-right: 5%;
+    height: 750px;
+    width: 740px;
+    z-index: 2;
+}
+
+.produto-vitrine {
+    height: 397px;
+    width: 279px;
+    margin-bottom: 2%;
+}
+
+.path-line {
+  margin-top: 25px;
+  margin-bottom: 5%;
+
+  .text {
+      font-family: "LILIHOME-OpenSans";
+      color: #444444;
+      font-size: 12px;
+      text-transform: uppercase;
+      opacity: 0.5;
+
+      .previous-index {
+          color: #00AD90;
+          opacity: 1 !important;
+      }
+
+      .last-index {
+          color: #727272;
+          opacity: 1 !important;
+          cursor: default;
+      }
+  }
+}
+
+.style-slide-veja{
+  border-bottom: none;
+  border-top: none;
+  border-left-style: outset;
+  border-right-style: inset;
+  background-color: #E6E5E5;
+  width: 950px;
+  height: 410px;
+  margin-right: 7%;
+  border-radius: 5px;
+  padding-right: 4%;
+  padding-left: 4%;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  display: flex;
+  flex-wrap: nowrap;
+  cursor: grab;
+}
+
+.img-produto{
+  margin-top: -20px;
+  height: 280px;
+  width: 493px;
+}
+
+.img-heart{
+  padding-left: 85%;
+  padding-right: 95%;
+  margin-top: 20px;
+  margin-left: 85%;
+  position: relative;
+  height: 20px;
+  width: 23px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  background: #f0f0f0;
+  z-index: 1;
+  padding-bottom: 10%;
+}
+
+.flex-container > div {
+  background-color: #f0f0f0;
+  width: 200px;
+  margin: 10px;
+  margin-left: 70%;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.pane{
+  margin-top: -5%;
+  width: 50px;
+  margin-left: -2%;
+}
+
+.card-galeria-produto{
+  height: 20%;
+  background-color: #FFFFFF;
+}
+
+.card-galeria-model{
+  height: 70px;
+  margin-left: 10px;
+  width: 76px;
+  background-color: #FFFFFF;
+}
+
+.card-img-produto{
+  height: 140px;
+}
+
+.card-img-modelos{
+  height: 70px;
+}
+
+.container-produto{
+  margin-bottom: 10%;
+  margin-left: -40%;
+}
+
+.modelos {
+  color: #ADADAD;
+  font-family: "LILIHOME-Antonio";
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 80px;
+}
+
+.container-model{
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.text-model{
+  color: #444444;
+  font-family: "LILIHOME-Open Sans";
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.text-ficha-menu{
+  color: #434343;
+  font-family: "LILIHOME-Antonio";
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 80px;
+}
+
+.text-ficha-head{
+  color: #787878;
+  font-family: "LILIHOME-Open Sans";
+  font-size: 14px;
+  line-height: 30px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-right: 1%;
+  padding-left: 2%;
+}
+
+.text-ficha{
+  color: #757575;
+  font-family: "LILIHOME-Open Sans";
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.hover-tooltip{
+  position:absolute;
+  left:35%;
+  bottom:10%;
+  right:10%;
+  top: 20%;
+}
+
+.hover-produto{
+  background-color: #00AD90;
+  height: 40%;
+  width: 40%;
+}
+
+.hover-icon{
+  height: 50%;
+  position:absolute;
+  top: 10%;
+  left:12%;
+}
+
+.img-quickview-heart{
+  padding-left: 80%;
+  padding-right: 90%;
+  margin-top: 20px;
+  margin-left: 85%;
+  position: relative;
+  height: 50px;
+  width: 53px;
+}
+
+.img-quickview-produto{
+  margin-top: -20px;
+  height: 250px;
+  width: 463px;
+}
+
+.quickview-button{
+  height: 47px;
+  width: 204px;
+  background-color: #00AD90;
+  box-shadow: 0 0 NaNpx NaNpx rgba(0,0,0,0.13);
+  margin-right: 40%;
+}
+
+.quickview-link{
+  color: #00AD90;
+  font-family: 'LILIHOME-Open Sans';
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 80px;
+  margin-right: 40%;
+}
+
+.quickview-price{
+  color: #000000;
+  font-family: 'LILIHOME-Antonio';
+  font-size: 30px;
+  text-align: bottom;
+}
+
+.quickview-button-price{
+  padding-top: 40%;
+}
+
+.quickview-text{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}

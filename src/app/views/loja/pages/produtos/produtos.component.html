@@ -1,0 +1,786 @@
+<!-- Bloco de código da Section -->
+<div id="produtos"></div>
+<section>
+  <div class="row page-categorias">
+  <div class="col-md-3"></div>
+    <div class="col-md-6">
+
+      <!-- Código Path -->
+      <div class="path-line">
+          <span class="text" *ngFor="let fragment of path; let first = first; let last = last;">
+            <span *ngIf="!first"> > </span>
+            <a class="previous-index" routerLink="{{fragment.link}}" *ngIf="!last">{{ fragment.text }}</a>
+            <span class="lastIndex" *ngIf="last">{{ fragment.text }}</span>
+          </span>
+      </div>
+      <!-- Código Path -->
+
+      <!-- Bloco de código painel de produtos -->
+      <div class="row">
+          <div class="col-8 pane">
+             <div class="tab-content" id="nav-tabContent">
+               <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+
+                 <!-- Bloco de código de produtos 1 -->
+                  <div class="row">
+                      <div class="style-produtos col-md-12">
+                        <div class="container">
+                          <div class="col-md-2"></div>
+                              <div>
+
+                                <div>
+                                  <!-- Galeria de Imagem 1 -->
+                                  <div>
+                                    <!-- Galeria 1.1  -->
+                                    <div class="gallery produto-vitrine">
+                                      <div class="row">
+                                          <div class="col-md-12">
+                                            <div class="card card-produto">
+                                              <div class="card-image">
+                                                <p><img class="img-heart" src="/assets/images/icons/ICON_addfavorito_ativo.svg" alt="Favorito"></p>
+                                                <img class="img-produto" src="/assets/images/poltrona_deco.png" alt="Poltrona Deco">
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <!-- Galeria 1.1  -->
+                                  </div>
+                                  <!-- Galeria de Imagem 1 -->
+
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Bloco de código de produtos 1 -->
+
+              </div>
+                <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+
+                  <!-- Bloco de código de produtos 2 -->
+                  <div class="row">
+                      <div class="style-produtos col-md-12">
+                        <div class="container">
+                          <div class="col-md-2"></div>
+                              <div>
+
+                                <div>
+                                  <!-- Galeria de Imagem 2 -->
+                                  <div>
+                                    <!-- Galeria 1.2  -->
+                                    <div class="gallery produto-vitrine">
+                                      <div class="row">
+                                          <div class="col s12 m7">
+                                            <div class="card card-produto">
+                                              <div class="card-image">
+                                                <p><img class="img-heart" src="/assets/images/icons/ICON_addfavorito_ativo.svg" alt="Favorito"></p>
+                                                <img class="img-produto" src="/assets/images/poltrona_deco_lado.png" alt="Poltrona Deco">
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <!-- Galeria 1.2  -->
+                                  </div>
+                                  <!-- Galeria de Imagem 2 -->
+
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Bloco de código de produtos 2 -->
+
+                </div>
+                <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+
+                  <!-- Bloco de código de produtos 3 -->
+                  <div class="row">
+                      <div class="style-produtos col-md-12">
+                        <div class="container">
+                          <div class="col-md-2"></div>
+                              <div>
+
+                                <div>
+                                  <!-- Galeria de Imagem 3 -->
+                                  <div>
+                                    <!-- Galeria 1.3  -->
+                                    <div class="gallery produto-vitrine">
+                                      <div class="row">
+                                          <div class="col s12 m7">
+                                            <div class="card card-produto">
+                                              <div class="card-image">
+                                                <p><img class="img-heart" src="/assets/images/icons/ICON_addfavorito_ativo.svg" alt="Favorito"></p>
+                                                <img class="img-produto" src="/assets/images/poltrona_deco_costas.png" alt="Poltrona Deco">
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <!-- Galeria 1.3  -->
+                                  </div>
+                                  <!-- Galeria de Imagem 3 -->
+
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Bloco de código de produtos 3 -->
+
+                </div>
+                <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+
+                  <!-- Bloco de código de produtos 1 -->
+                  <div class="row">
+                      <div class="style-produtos col-md-12">
+                        <div class="container">
+                          <div class="col-md-2"></div>
+                              <div>
+
+                                <div>
+                                  <!-- Galeria de Imagem 1 -->
+                                  <div>
+                                    <!-- Galeria 1.1  -->
+                                    <div class="gallery produto-vitrine">
+                                      <div class="row">
+                                          <div class="col s12 m7">
+                                            <div class="card card-produto">
+                                              <div class="card-image">
+                                                <p><img class="img-heart" src="/assets/images/icons/ICON_addfavorito_ativo.svg" alt="Favorito"></p>
+                                                <img class="img-produto" src="/assets/images/poltrona_deco.png" alt="Poltrona Deco">
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <!-- Galeria 1.1  -->
+                                  </div>
+                                  <!-- Galeria de Imagem 1 -->
+
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- Bloco de código de produtos 1 -->
+
+                </div>
+             </div>
+           </div>
+
+           <div class="col-4 flex-container">
+             <div class="list-group" id="list-tab" role="tablist">
+                <a id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">
+
+                    <div class="w3-container container-produto">
+
+                        <!-- Bloco de código da imagem 1 -->
+                        <div class="col-md-10 col-sm-12 col-12">
+                          <div class="w3-card card-galeria-produto">
+                            <img src="/assets/images/poltrona_deco.png" alt="Poltrona Deco" class="card-img-produto">
+                        </div>
+                      </div>
+                        <!-- Bloco de código da imagem 1 -->
+                    </div>
+
+                </a>
+                <a id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">
+
+                    <div class="w3-container container-produto">
+
+                        <!-- Bloco de código da imagem 2 -->
+                        <div class="col-md-10 col-sm-12 col-12">
+                          <div class="w3-card card-galeria-produto">
+                            <img src="/assets/images/poltrona_deco_lado.png" alt="Poltrona Deco" class="card-img-produto">
+                        </div>
+                      </div>
+                        <!-- Bloco de código da imagem 2 -->
+                    </div>
+
+                </a>
+                <a id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">
+
+                    <div class="w3-container container-produto">
+
+                        <!-- Bloco de código da imagem 3 -->
+                        <div class="col-md-10 col-sm-12 col-12">
+                          <div class="w3-card card-galeria-produto">
+                            <img src="/assets/images/poltrona_deco_costas.png" alt="Poltrona Deco" class="card-img-produto">
+                        </div>
+                      </div>
+                        <!-- Bloco de código da imagem 3 -->
+                    </div>
+
+                </a>
+                <a id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">
+
+                    <div class="w3-container container-produto">
+
+                        <!-- Bloco de código da imagem 4 -->
+                        <div class="col-md-10 col-sm-12 col-12">
+                          <div class="w3-card card-galeria-produto">
+                            <img src="/assets/images/poltrona_deco.png" alt="Poltrona Deco" class="card-img-produto">
+                          </div>
+                      </div>
+                        <!-- Bloco de código da imagem 4 -->
+                    </div>
+
+                </a>
+             </div>
+           </div>
+
+         </div>
+      <!-- Bloco de código painel de produtos -->
+
+      <!-- Bloco de código modelos -->
+      <div class="container-model">
+      <div class="row">
+        <div class="col-md-2">
+          <span class="modelos">Modelos</span>
+        </div>
+        <div class="row">
+          <div class="w3-card card-galeria-model" *ngFor="let i of list" >
+            <img src="/assets/images/poltrona_deco.png" alt="Poltrona Deco" class="card-img-modelos">
+            <div class="w3-container card-text-categorias">
+              <span class="text-model">Modelo</span>
+              <p class="text-model">Lorem ipsum</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="col-md-12 border border-bottom border-top-0 border-right-0 border-left-0 borderCad"></div>
+
+      <!-- Bloco de código modelos -->
+
+      <!-- Bloco de código de ficha técnica -->
+
+      <div class="w3-container">
+        <br>
+        <!-- Nav pills -->
+        <div class="w3-bar col-md-12">
+        <ul class="nav" role="tablist">
+          <li class="nav-item">
+
+            <a class="active text-body text-ficha-menu w3-bar-item w3-button w3-hover-none w3-border-#D2D2D2 w3-bottombar w3-hover-border-black" data-toggle="pill" href="#tab1">Descrição</a>
+
+          </li>
+          <li class="nav-item">
+
+            <a class="text-body text-ficha-menu w3-bar-item w3-button w3-hover-none w3-border-#D2D2D2 w3-bottombar w3-hover-border-black" data-toggle="pill" href="#tab2">Composição</a>
+
+          </li>
+          <li class="nav-item">
+
+            <a class="text-body text-ficha-menu w3-bar-item w3-button w3-hover-none w3-border-#D2D2D2 w3-bottombar w3-hover-border-black" data-toggle="pill" href="#tab3">Cuidados Especiais</a>
+
+          </li>
+
+          <li class="nav-item">
+
+            <a class="text-body text-ficha-menu w3-bar-item w3-button w3-hover-none w3-border-#D2D2D2 w3-bottombar w3-hover-border-black" data-toggle="pill" href="#tab4">Especificações Técnicas</a>
+
+          </li>
+        </ul>
+      </div>
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div id="tab1" class="container tab-pane active"><br>
+            <div class="row">
+              <span class="border border-left-0 border-bottom-0 border-top-0 border-right-1 text-ficha-head">PESO (KG)</span>
+              <span class="border border-left-0 border-bottom-0 border-top-0 border-right-1 text-ficha-head">PESO SUPORTADO (KG)</span>
+              <span class="border border-left-0 border-bottom-0 border-top-0 border-right-1 text-ficha-head">PRODUÇÃO (DIAS)</span>
+              <span class="border border-left-0 border-bottom-0 border-top-0 border-right-1 text-ficha-head">LARGURA X ALTURA X PROFUNDIDADE (CM)</span>
+            </div>
+            <p class="text-ficha">Lorem ipsum interdum accumsan tincidunt adipiscing justo aenean commodo fusce, aptent vulputate fermentum euismod sit sed pretium felis lobortis, libero malesuada tempor sapien aliquam elit lobortis velit. augue sagittis bibendum magna euismod accumsan fringilla iaculis torquent, bibendum suscipit habitant turpis nullam semper lacinia mollis lobortis, id volutpat risus hac vitae orci sociosqu. ad nisi aliquam varius lacinia nisi massa nisl curabitur class curabitur aliquam interdum urna luctus fames fusce, accumsan sociosqu hendrerit per orci hendrerit metus adipiscing scelerisque turpis a euismod sit sodales porta. mollis pretium nibh ultricies vivamus ante arcu pellentesque mi massa, ad imperdiet eu senectus libero aptent porta nam lacus, torquent iaculis imperdiet diam netus aliquam fusce nisi. </p>
+          </div>
+          <div id="tab2" class="container tab-pane fade"><br>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+          <div id="tab3" class="container tab-pane fade"><br>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+          </div>
+          <div id="tab4" class="container tab-pane fade"><br>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 border border-bottom border-top-0 border-right-0 border-left-0 borderCad"></div>
+
+      <!-- Bloco de código de ficha técnica -->
+
+<!-- Bloco de código da galeria dos mais vendidos -->
+<div class="row">
+    <div class="style-produtos-veja col-md-12">
+      <div class="container">
+        <div class="col-md-2"></div>
+          <div class="col-md-12"></div>
+          <div class="titleCarrousel"><p>Veja também</p></div>
+          <div class="text">Lorem ipsum ultrices congue dolor id curae arcu felis, justo hac inceptos risus dolor</div>
+                <br>
+
+                <div class="style-slide-veja">
+                  <div class="slideBack">
+
+                  <!-- CAROSSEL INTERNO DO CARD -->
+                  <div id="vendidos" class="carousel slide" data-ride="carousel" data-interval="0">
+
+                  <!-- The slideshow -->
+                  <div class="carousel-inner">
+                    <!-- Galeria de Imagem 1 -->
+                    <div class="carousel-item active">
+                      <!-- Galeria 1.1  -->
+                      <div class="gallery produto-vitrine-copy">
+                        <div class="row">
+                          <div class="col s12 m7">
+
+                            <!-- Bloco de Código do Card -->
+                            <div class="card card4">
+
+                              <!-- Card de imagem  -->
+                              <div class="card-image">
+
+                                <!-- Hover do Card de imagem  -->
+                                <p>
+                                  <img class="imgHeart" src="/assets/images/icons/ICON_addfavorito_ativo.svg" alt="Carrinho">
+                                </p>
+
+                                <div class="w3-container">
+                                    <div class="w3-tooltip">
+                                      <p class="hover-tooltip w3-text w3-round w3-#f0f0f0 w3-animate-opacity">
+                                          <span class="hover-produto w3-badge w3-xxxlarge w3-padding">
+                                            <a class="text-muted" href="#">
+                                              <i class="hover-icon large material-icons" data-toggle="modal" data-target="#myModal">
+                                                search
+                                              </i>
+                                            </a>
+                                          </span>
+                                      </p>
+
+                                      <a routerLink="/produtos" pageScroll href="#produtos">
+                                        <img class="imgGalerias" src="/assets/images/Poltrona-Inspira.png" alt="Poltrona Inspira">
+                                      </a>
+                                    </div>
+                                  </div>
+                                  <!-- Hover do Card de imagem  -->
+
+                                <div class="card-title-img">
+                                  <span class="card-title">Poltrona Inspira</span>
+                                </div>
+
+                              </div>
+                              <!-- Card de imagem  -->
+                                <div class="card-content border border-bottom border-top-0 border-right-0 border-left-0 cardPrice">
+                                  <p>R$ 0,00</p>
+                                </div>
+                                <div class="card-action">
+                                  <div class="cardCart">
+                                    <a href="#">
+                                      <img class="imgCar" src="/assets/images/icons/ICON_add-cart.svg" alt="Carrinho">
+                                    </a>
+                                  </div>
+                                </div>
+                              </div>
+                              <!-- Bloco de Código do Card -->
+
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Galeria 1.1  -->
+
+                        <!-- Galeria 1.2  -->
+                        <div class="gallery produto-vitrine-copy">
+                          <div class="row">
+                            <div class="col s12 m7">
+
+                              <!-- Bloco de Código do Card -->
+                              <div class="card card4">
+
+                                <!-- Card de imagem  -->
+                                <div class="card-image">
+
+                                  <!-- Hover do Card de imagem  -->
+                                    <p>
+                                      <img class="imgHeart" src="/assets/images/icons/ICON_addfavorito_ativo.svg" alt="Carrinho">
+                                    </p>
+
+                                    <div class="w3-container">
+                                        <div class="w3-tooltip">
+                                          <p class="hover-tooltip w3-text w3-round w3-#f0f0f0 w3-animate-opacity">
+                                              <span class="hover-produto w3-badge w3-xxxlarge w3-padding">
+                                                <a class="text-muted" href="#">
+                                                  <i class="hover-icon large material-icons" data-toggle="modal" data-target="#myModal">
+                                                    search
+                                                  </i>
+                                                </a>
+                                              </span>
+                                          </p>
+                                          <a routerLink="/produtos" pageScroll href="#produtos">
+                                            <img class="imgGalerias" src="/assets/images/Luna-Mesa-Jantar.png" alt="Luna mesa de jantar">
+                                          </a>
+                                        </div>
+                                      </div>
+                                      <!-- Hover do Card de imagem  -->
+
+                                    <div class="card-title-img"><span class="card-title">Luna mesa de jantar</span></div>
+                                  </div>
+                                  <!-- Card de imagem  -->
+
+                                  <div class="card-content border border-bottom border-top-0 border-right-0 border-left-0 cardPrice">
+                                    <p>R$ 0,00</p>
+                                  </div>
+                                  <div class="card-action">
+                                      <div class="cardCart">
+                                        <a href="#">
+                                          <img class="imgCar" src="/assets/images/icons/ICON_add-cart.svg" alt="Carrinho">
+                                        </a>
+                                      </div>
+                                  </div>
+                                </div>
+                                <!-- Bloco de Código do Card -->
+
+                              </div>
+                            </div>
+                        </div>
+                        <!-- Galeria 1.2  -->
+
+                        <!-- Galeria 1.3  -->
+                      <div class="gallery produto-vitrine-copy">
+                          <div class="row">
+                            <div class="col s12 m7">
+                              <!-- Bloco de Código do Card -->
+                              <div class="card card4">
+
+                                <!-- Card de imagem  -->
+                                <div class="card-image">
+
+                                  <!-- Hover do Card de imagem  -->
+                                    <p>
+                                        <img class="imgHeart" src="/assets/images/icons/ICON_addfavorito_ativo.svg" alt="Carrinho">
+                                      </p>
+
+                                      <div class="w3-container">
+                                          <div class="w3-tooltip">
+                                            <p class="hover-tooltip w3-text w3-round w3-#f0f0f0 w3-animate-opacity">
+                                                <span class="hover-produto w3-badge w3-xxxlarge w3-padding">
+                                                  <a class="text-muted" href="#">
+                                                    <i class="hover-icon large material-icons" data-toggle="modal" data-target="#myModal">
+                                                      search
+                                                    </i>
+                                                  </a>
+                                                </span>
+                                            </p>
+                                            <a routerLink="/produtos" pageScroll href="#produtos">
+                                              <img class="imgGalerias" src="/assets/images/Cadeira-Net-Junco.png" alt="Cadeira Net Junco">
+                                            </a>
+                                          </div>
+                                      </div>
+                                      <!-- Hover do Card de imagem  -->
+
+                                    <div class="card-title-img"><span class="card-title">Cadeira Net Junco</span></div>
+                                  </div>
+                                  <!-- Card de imagem  -->
+
+                                  <div class="card-content border border-bottom border-top-0 border-right-0 border-left-0 cardPrice">
+                                    <p>R$ 0,00</p>
+                                  </div>
+                                  <div class="card-action">
+                                      <div class="cardCart">
+                                        <a href="#">
+                                          <img class="imgCar" src="/assets/images/icons/ICON_add-cart.svg" alt="Carrinho">
+                                        </a>
+                                      </div>
+                                  </div>
+                                </div>
+                                <!-- Bloco de Código do Card -->
+
+                              </div>
+                            </div>
+                        </div>
+                        <!-- Galeria 1.3  -->
+
+                    </div>
+                    <!-- Galeria de Imagem 1 -->
+
+                    <!-- Galeria de Imagem 2 -->
+                    <div class="carousel-item">
+                        <!-- Galeria 2.1  -->
+                        <div class="gallery produto-vitrine-copy">
+                            <div class="row">
+                              <div class="col s12 m7">
+                                <!-- Bloco de Código do Card -->
+                                <div class="card card4">
+
+                                  <!-- Card de imagem  -->
+                                  <div class="card-image">
+
+                                    <!-- Hover do Card de imagem  -->
+                                      <p>
+                                        <img class="imgHeart" src="/assets/images/icons/ICON_addfavorito_ativo.svg" alt="Carrinho">
+                                      </p>
+
+                                      <div class="w3-container">
+                                          <div class="w3-tooltip">
+                                            <p class="hover-tooltip w3-text w3-round w3-#f0f0f0 w3-animate-opacity">
+                                                <span class="hover-produto w3-badge w3-xxxlarge w3-padding">
+                                                  <a class="text-muted" href="#">
+                                                    <i class="hover-icon large material-icons" data-toggle="modal" data-target="#myModal">
+                                                      search
+                                                    </i>
+                                                  </a>
+                                                </span>
+                                            </p>
+                                            <a routerLink="/produtos" pageScroll href="#produtos">
+                                              <img class="imgGalerias" src="/assets/images/Banqueta-Oregon.png" alt="Banqueta Oregon">
+                                            </a>
+                                          </div>
+                                      </div>
+                                      <!-- Hover do Card de imagem  -->
+
+                                      <div class="card-title-img"><span class="card-title">Banqueta Oregon</span></div>
+                                    </div>
+                                    <!-- Card de imagem  -->
+
+                                    <div class="card-content border border-bottom border-top-0 border-right-0 border-left-0 cardPrice">
+                                      <p>R$ 0,00</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <div class="cardCart">
+                                          <a href="#">
+                                            <img class="imgCar" src="/assets/images/icons/ICON_add-cart.svg" alt="Carrinho">
+                                          </a>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <!-- Bloco de Código do Card -->
+
+                                </div>
+                              </div>
+                          </div>
+                          <!-- Galeria 2.1  -->
+
+                          <!-- Galeria 2.2  -->
+                        <div class="gallery produto-vitrine-copy">
+                            <div class="row">
+                              <div class="col s12 m7">
+                                <!-- Bloco de Código do Card -->
+                                <div class="card card4">
+
+                                  <!-- Card de imagem  -->
+                                  <div class="card-image">
+
+                                    <!-- Hover do Card de imagem  -->
+                                      <p>
+                                        <img class="imgHeart" src="/assets/images/icons/ICON_addfavorito_ativo.svg" alt="Carrinho">
+                                      </p>
+
+                                      <div class="w3-container">
+                                          <div class="w3-tooltip">
+                                            <p class="hover-tooltip w3-text w3-round w3-#f0f0f0 w3-animate-opacity">
+                                              <span class="hover-produto w3-badge w3-xxxlarge w3-padding">
+                                                <a class="text-muted" href="#">
+                                                  <i class="hover-icon large material-icons" data-toggle="modal" data-target="#myModal">
+                                                    search
+                                                  </i>
+                                                </a>
+                                              </span>
+                                            </p>
+                                            <a routerLink="/produtos" pageScroll href="#produtos">
+                                              <img class="imgGalerias" src="/assets/images/CONJUNTO-DG.png" alt="Conjunto DG">
+                                            </a>
+                                          </div>
+                                      </div>
+                                      <!-- Hover do Card de imagem  -->
+
+                                      <div class="card-title-img"><span class="card-title">Conjunto DG</span></div>
+                                    </div>
+                                    <!-- Card de imagem  -->
+
+                                    <div class="card-content border border-bottom border-top-0 border-right-0 border-left-0 cardPrice">
+                                      <p>R$ 0,00</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <div class="cardCart">
+                                          <a href="#">
+                                            <img class="imgCar" src="/assets/images/icons/ICON_add-cart.svg" alt="Carrinho">
+                                          </a>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <!-- Bloco de Código do Card -->
+
+                                </div>
+                              </div>
+                          </div>
+                          <!-- Galeria 2.2  -->
+
+                          <!-- Galeria 2.3  -->
+                        <div class="gallery produto-vitrine-copy">
+                            <div class="row">
+                              <div class="col s12 m7">
+                                <!-- Bloco de Código do Card -->
+                                <div class="card card4">
+
+                                  <!-- Card de imagem  -->
+                                  <div class="card-image">
+
+                                    <!-- Hover do Card de imagem  -->
+                                      <p>
+                                        <img class="imgHeart" src="/assets/images/icons/ICON_addfavorito_ativo.svg" alt="Carrinho">
+                                      </p>
+
+                                      <div class="w3-container">
+                                          <div class="w3-tooltip">
+                                            <p class="hover-tooltip w3-text w3-round w3-#f0f0f0 w3-animate-opacity">
+                                              <span class="hover-produto w3-badge w3-xxxlarge w3-padding">
+                                                <a class="text-muted" href="#">
+                                                  <i class="hover-icon large material-icons" data-toggle="modal" data-target="#myModal">
+                                                    search
+                                                  </i>
+                                                </a>
+                                              </span>
+                                            </p>
+                                            <a routerLink="/produtos" pageScroll href="#produtos">
+                                              <img class="imgGalerias" src="/assets/images/CADEIRA-GIRATORIA-GENOVA.png" alt="Cadeira Giratória Genova">
+                                            </a>
+                                          </div>
+                                      </div>
+                                      <!-- Hover do Card de imagem  -->
+
+                                      <div class="card-title-img"><span class="card-title">Cadeira Giratória Genova</span></div>
+                                    </div>
+                                    <!-- Card de imagem  -->
+
+                                    <div class="card-content border border-bottom border-top-0 border-right-0 border-left-0 cardPrice">
+                                      <p>R$ 0,00</p>
+                                    </div>
+                                    <div class="card-action">
+                                        <div class="cardCart">
+                                          <a href="#">
+                                            <img class="imgCar" src="/assets/images/icons/ICON_add-cart.svg" alt="Carrinho">
+                                          </a>
+                                        </div>
+                                    </div>
+                                  </div>
+                                  <!-- Bloco de Código do Card -->
+
+                                </div>
+                              </div>
+                          </div>
+                          <!-- Galeria 2.3  -->
+
+                      </div>
+                      <!-- Galeria de Imagem 2 -->
+
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a class="carousel-control-prev styleControl2" href="#vendidos" data-slide="prev">
+                      <img class="imgSeta" src="/assets/images/icons/ICON_seta_banner_esq.svg" alt="Esquerda">
+                  </a>
+                  <a class="carousel-control-next styleControl2" href="#vendidos" data-slide="next">
+                      <img class="imgSeta" src="/assets/images/icons/ICON_seta_banner_dir.svg" alt="Direita">
+                  </a>
+                  <!-- Left and right controls -->
+
+                  </div>
+                  <!-- CAROSSEL INTERNO DO CARD -->
+            </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <!-- Bloco de código da galeria veja também -->
+
+<!-- Bloco de código Quickview de produto -->
+
+<!-- The Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Produto</h4>
+        <button type="button" class="close" data-dismiss="modal">
+          &times;
+        </button>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6">
+      <!-- Modal body -->
+      <div class="modal-body">
+
+        <!-- Bloco de código de produtos 1 -->
+        <div class="row">
+            <div class="style-produtos">
+              <div class="container">
+                <div class="col-md-2"></div>
+                    <div>
+
+                      <div>
+                        <!-- Galeria de Imagem 1 -->
+                        <div>
+                          <!-- Galeria 1.1  -->
+                          <div class="gallery produto-quickview-vitrine">
+                            <div class="row">
+                                <div class="col-md-12">
+                                  <div class="card">
+                                    <div class="card-image">
+                                      <p><img class="img-quickview-heart" src="/assets/images/icons/ICON_addfavorito_ativo.svg" alt="Favorito"></p>
+                                      <img class="img-quickview-produto" src="/assets/images/poltrona_deco.png" alt="Poltrona Deco">
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Galeria 1.1  -->
+                        </div>
+                        <!-- Galeria de Imagem 1 -->
+
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+          </div>
+          <!-- Bloco de código de produtos 1 -->
+      </div>
+      <!-- Modal body -->
+
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="text quickview-text">
+          Lorem ipsum ultrices congue dolor id curae arcu felis, justo hac inceptos risus dolor.
+          Lorem ipsum ultrices congue dolor id curae arcu felis, justo hac inceptos risus dolor
+        </div>
+        <div class="quickview-button-price">
+          <span class="quickview-price">R$ 0,00</span>
+          <button type="button" class="btn btn-success quickview-button">Comprar</button>
+        </div>
+        <div>
+          <span><a class="quickview-link close" data-dismiss="modal" routerLink="/produtos" pageScroll href="#produtos">VEJA MAIS DETALHES DO PRODUTO</a></span>
+        </div>
+
+      </div>
+      </div>
+      <!-- Modal footer -->
+    </div>
+      </div>
+    </div>
+  </div>
+  <!-- Bloco de código Quickview de produto -->
+
+<!-- Bloco de código da Section -->
+

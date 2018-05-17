@@ -1,0 +1,69 @@
+@import "../../../../../styles";
+
+.page-categorias{
+    padding-bottom: 5%;
+    padding-top: 2%;
+    background-color: #f0f0f0;
+    height: 2200px;
+}
+
+.menu-lista{
+    text-align: center;
+    color: #000000;
+    font-family: "LILIHOME-OpenSans";
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.input-list-menu{
+    text-align: left;
+    cursor: -webkit-grab;
+}
+
+.ordenacao-preco{
+    text-align: right;
+}
+
+.style-produtos{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    height: 450px;
+}
+
+.card-produto{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 280px;
+}
+
+.produto-vitrine {
+    height: 397px;
+    width: 279px;
+    margin-bottom: 2%;
+}
+
+.path-line {
+  margin-top: 25px;
+
+  .text {
+      font-family: "LILIHOME-OpenSans";
+      color: #444444;
+      font-size: 12px;
+      text-transform: uppercase;
+      opacity: 0.5;
+
+      .previous-index {
+          color: #00AD90;
+          opacity: 1 !important;
+      }
+
+      .last-index {
+          color: #727272;
+          opacity: 1 !important;
+          cursor: default;
+      }
+  }
+}
+
