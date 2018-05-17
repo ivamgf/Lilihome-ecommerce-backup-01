@@ -1,0 +1,22 @@
+<svg id="ICON_passocart_dois.svg" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fafafa;
+        stroke: #1aae8e;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        font-size: 14px;
+        fill: #00ad90;
+        text-anchor: middle;
+        font-family: "Open Sans";
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    </style>
+  </defs>
+  <circle id="_01_bullet" data-name="01_bullet" class="cls-1" cx="13" cy="13" r="12"/>
+  <text id="_2" data-name="2" class="cls-2" x="12.504" y="18.492">2</text>
+</svg>

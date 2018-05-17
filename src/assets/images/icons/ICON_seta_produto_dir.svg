@@ -1,0 +1,16 @@
+<svg id="ICON_seta_produto_dir.svg" xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #5b5b5b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="13" cy="13" r="13"/>
+  <path id="_-_copy_6" data-name="-&gt; copy 6" class="cls-2" d="M2251.9,4531l2.07-2,8.12,8-8.12,8-2.07-2,6.11-6Z" transform="translate(-2242.5 -4523.5)"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5b5b5b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="ICON_add-cart.svg" class="cls-1" d="M2349.49,4709a1.5,1.5,0,1,0,1.5,1.5,1.5,1.5,0,0,0-1.5-1.5h0Zm-3.49,1.5a1.505,1.505,0,1,1-1.51-1.5,1.507,1.507,0,0,1,1.51,1.5h0Zm13.99-16.5-0.74,2h-1.93l-3.47,12h-13.24l-4.61-11h2.16l3.78,9h10.43l3.43-12h4.19Zm-11.99,4h2.99v2H2348v3h-2v-3h-3.01v-2H2346v-3h2v3h0Z" transform="translate(-2336 -4694)"/>
+</svg>

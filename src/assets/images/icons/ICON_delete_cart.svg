@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #838383;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="ICON_delete_cart.svg" class="cls-1" d="M12287,3453.77l-4.9-4.78,4.8-4.84-2.1-2.15-4.8,4.85-4.9-4.78-2.1,2.13,4.8,4.81-4.7,4.85,2.1,2.14,4.8-4.85,4.8,4.78Z" transform="translate(-12273 -3442)"/>
+</svg>

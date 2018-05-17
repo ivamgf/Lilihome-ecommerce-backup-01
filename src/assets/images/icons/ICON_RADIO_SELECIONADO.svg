@@ -1,0 +1,12 @@
+<svg id="ICON_RADIO_SELECIONADO.svg" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #787878;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="ICON_radio_empty_copy_3" data-name="ICON_radio_empty copy 3" class="cls-1" d="M15530,7947.51a6.49,6.49,0,1,1-6.5,6.49,6.491,6.491,0,0,1,6.5-6.49m0-2.01a8.5,8.5,0,1,0,8.5,8.5,8.493,8.493,0,0,0-8.5-8.5h0Z" transform="translate(-15521.5 -7945.5)"/>
+  <path id="ICON_radio_empty_copy_3-2" data-name="ICON_radio_empty copy 3" class="cls-1" d="M15530,7950a4,4,0,1,1-4,4,4.005,4.005,0,0,1,4-4" transform="translate(-15521.5 -7945.5)"/>
+</svg>

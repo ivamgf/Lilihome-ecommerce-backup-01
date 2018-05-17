@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 18">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #5b5b5b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="ICON_tira-cart.svg" class="cls-1" d="M2520.49,4709a1.5,1.5,0,1,0,1.5,1.5,1.5,1.5,0,0,0-1.5-1.5h0Zm-3.49,1.5a1.505,1.505,0,1,1-1.51-1.5,1.507,1.507,0,0,1,1.51,1.5h0Zm13.99-16.5-0.74,2h-1.93l-3.47,12h-13.24l-4.61-11h2.16l3.78,9h10.43l3.43-12h4.19Zm-9,4v2h-8v-2h8Z" transform="translate(-2507 -4694)"/>
+</svg>

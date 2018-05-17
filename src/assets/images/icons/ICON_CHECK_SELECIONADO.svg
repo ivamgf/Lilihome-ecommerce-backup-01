@@ -1,0 +1,19 @@
+<svg id="ICON_CHECK_SELECIONADO.svg" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00ad90;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #fafafa;
+      }
+    </style>
+  </defs>
+  <path id="Rectangle_1720_copy" data-name="Rectangle 1720 copy" class="cls-1" d="M1651.99,3946h17v17h-17v-17Z" transform="translate(-1652 -3946)"/>
+  <path id="ICON_checkbox_copy" data-name="ICON_checkbox copy" class="cls-2" d="M1664.3,3949.99l-5.17,6.1-2.43-2.64-1.7,1.95,4.13,4.6,6.87-8.05Z" transform="translate(-1652 -3946)"/>
+</svg>
