@@ -1,0 +1,134 @@
+
+.titleCad{
+    color: #00AD90;
+    font-family: "LILIHOME-antonio";
+    font-size: 30px;
+    line-height: 42px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.inputCad {
+    border: none;
+    box-shadow: 0 0 0 0;
+    -webkit-box-shadow: none;
+    line-height: 30px;
+    font-style: normal;
+    font-family: "LILIHOME-OpenSans";
+    font-size: 12px;
+    color: #292929;
+    background: none;
+ }
+
+ .borderCad{
+    margin-bottom: 5%;
+ }
+
+ .textCad {
+    border: none;
+    box-shadow: 0 0 0 0;
+    -webkit-box-shadow: none;
+    line-height: 30px;
+    font-style: normal;
+    font-family: "LILIHOME-OpenSans";
+    font-size: 12px;
+    color: #292929;
+    background: none;
+ }
+
+ /* The container */
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #00AD90;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.textCheck{
+    color: #292929;
+    font-family: "LILIHOME-Open Sans";
+    font-size: 12px;
+}
+
+.buttonCad{
+    margin-top: 20px;
+    height: 47px;
+    width: 315px;
+}
+
+.btnContainer{
+    padding-left: 20%;
+    padding-right: 25%;
+    padding-top: 5%;
+}
+
+.textAlert{
+    color: #BB0000;
+    font-family: "LILIHOME-Open Sans";
+    font-size: 12px;
+    margin-top: -10%;
+}
+
+.seta-entre{
+    padding-left: 10%;
+}
