@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'LILIHOME-OpenSans';
+    src:
+        url("/assets/fonts/OpenSans-Regular.ttf"        ) format('truetype'),
+        url("/assets/fonts/OpenSans-Light.ttf"          ) format('truetype'),
+        url("/assets/fonts/OpenSans-Bold.ttf"           ) format('truetype'),
+        url("/assets/fonts/OpenSans-SemiboldItalic.ttf" ) format('truetype'),
+        url("/assets/fonts/OpenSans-BoldItalic.ttf"     ) format('truetype'),
+        url("/assets/fonts/OpenSans-ExtraBold.ttf"      ) format('truetype'),
+        url("/assets/fonts/OpenSans-ExtraBoldItalic.ttf") format('truetype'),
+        url("/assets/fonts/OpenSans-Italic.ttf"         ) format('truetype'),
+        url("/assets/fonts/OpenSans-LightItalic.ttf"    ) format('truetype'),
+        url("/assets/fonts/OpenSans-Semibold.ttf"       ) format('truetype');
+};
+
+
+@font-face {
+    font-family: "LILIHOME-Antonio";
+    src:
+        url("/assets/fonts/Antonio-Regular.ttf") format('truetype'),
+        url("/assets/fonts/Antonio-Light.ttf"  ) format('truetype'),
+        url("/assets/fonts/Antonio-Bold.ttf"   ) format('truetype');
+};
