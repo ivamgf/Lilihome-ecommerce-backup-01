@@ -1,0 +1,44 @@
+
+<div class="shopping-cart-container">
+  <div class="shopping-cart-item" *ngFor="let item of shopping_cart.items">
+    <div class="col-3 item-image">
+      <img src="{{ item.image_url }}" alt="{{ item.name }}" class="item-image">
+    </div>
+    <div class="col-9 item-info">
+
+      <div class="row">
+        <span class="item-name">{{ item.name }}</span>
+        <div class="remove-icon" (click)="removeItemFromCart(item)"></div>
+      </div>
+
+      <div class="row">
+        <label for="itemModelSelectize" class="item-model-label">Modelo</label>
+        <select name="itemModelSelectize" id="itemModelSelectize" class="item-model">
+          <option value="{{ model.id }}" class="item-model-option" *ngFor="let model of item.models">
+            <div class="row">
+              <img src="{{ model.img_url }}" alt="{{ model.name }}" class="col-3">
+              <span class="item-model-name">{{ model.name }}</span>
+            </div>
+          </option>
+        </select>
+      </div>
+
+      <div class="row">
+        <label>Qtd.</label>
+        <widget-change-qty [actualQty]="item.max_stock" [actualQty]="item.qty" (newQty)="updateQty($event)"></widget-change-qty>
+        <span class="item-total-value">{{ item.totalValue }}</span>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <span class="shopping-cart-total"> SUBTOTAL: <span class="shopping-cart-total-value">{{ shopping_cart.totalValue }}</span></span>
+  </div>
+
+  <div class="row">
+    <button class="go-to-cart" routerLink="/shopping-cart"> IR PARA O CARRINHO </button>
+  </div>
+
+</div>
+

@@ -1,0 +1,91 @@
+@import "../../../../styles";
+
+.shopping-cart-container {
+    background-color: #FFFFFF;
+
+    .shopping-cart-item {
+        width: 440px;
+        border-bottom: 1px solid #D3D3D3;
+        border-bottom-width: 410px;
+        padding: 17px 0;
+        margin: auto 15px;
+    }
+
+    .item-image {
+        height: 122px;
+        width: 122px;
+        border: 1px solid rgba(0,0,0,0.06);
+        background-color: #FFFFFF;
+      
+      img {
+        height: 97px;
+        width: 108px;
+        margin: auto;
+      }
+    }
+
+    .item-name {
+        color: #787878;
+        font-family: "LILIHOME-Antonio";
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    .remove-icon {
+        height: 14px;
+        width: 14px;
+        background-color: #838383;
+    }
+
+    label {
+        color: #292929;
+        font-family: "LILIHOME-OpenSans";
+        font-size: 12px;
+    }
+
+
+    select.item-model {
+        width: 210px;
+        border-bottom: 1px solid #979797;
+        border-bottom-width: 210px;
+    }
+    
+    .item-model-name {
+        color: #444444;
+        font-family: "LILIHOME-OpenSans";
+        font-size: 12px;
+        line-height: 12px;
+    }
+
+    .item-total-value {
+        color: #000000;
+        font-family: "LILIHOME-Antonio";
+        font-size: 20px;
+        float: right;
+        text-align: right;
+    }
+
+    .shopping-cart-total {
+        color: #787878;
+        font-family: "LILIHOME-OpenSans";
+        font-size: 12px;
+    }
+
+    .shopping-cart-total-value {
+        color: #787878;
+        font-family: "LILIHOME-Antonio";
+        font-size: 20px;
+        text-align: right;
+    }
+
+    button {
+        height: 47px;
+        width: 212px;
+        background-color: #00AD90;
+        color: #FFFFFF;
+        font-family: "LILIHOME-OpenSans";
+        font-size: 14px;
+        text-align: center;
+        border-radius: 4px;
+    }
+}
