@@ -5,5 +5,5 @@
 
 export const environment = {
   production: false,
-  api_host: "http://localhost"
+  api_host: "https://api.lilihome.com.br"
 };
