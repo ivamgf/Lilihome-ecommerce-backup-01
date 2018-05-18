@@ -1,0 +1,58 @@
+<!-- Bloco de código da Section -->
+<section>
+  <div class="sizePage">
+    <div class="row">
+      <div class="col-md-4 col-4"></div>
+      <div class="col-md-4 col-4">
+        <div class="titleCad"><h1>CADASTRO</h1></div>
+        <form (change)="formChanged()" [formGroup] = "formulario" (submit)="onSubmit()" >
+          <div>
+            <div class="row">
+              <div>
+                <input matInput type="text" class="form-control inputCad" placeholder="Nome Completo" size="220" formControlName="nome" id="nome">
+              </div>
+            </div>
+          <div class="col-md-12 border border-bottom border-top-0 border-right-0 border-left-0 borderCad"></div>
+        </div>
+
+        <div>
+            <div class="row">
+              <div>
+                <input matInput type="email" class="form-control inputCad" placeholder="E-mail" size="220" formControlName="email" id="email">
+              </div>
+            </div>
+          <div class="col-md-12 border border-bottom border-top-0 border-right-0 border-left-0 borderCad"></div>
+        </div>
+
+        <div>
+            <div class="row">
+              <div class="col-md-6 col-12">
+                <input matInput type="password" class="form-control textCad" placeholder="Senha" size="220" formControlName="senha">
+                <div class="col-md-12 border border-bottom border-top-0 border-right-0 border-left-0 borderCad"></div>
+              </div>
+              <div class="col-md-6 col-12">
+                <input matInput type="password" class="form-control textCad" placeholder="Repita a Senha" size="220" formControlName="repSenha">
+                <div class="col-md-12 border border-bottom border-top-0 border-right-0 border-left-0 borderCad"></div>
+              </div>
+            </div>
+        </div>
+        <label class="container textCheck">Eu li e concordo com os <a href="#">Termos de Uso</a> da Lilihome
+            <input type="checkbox" checked="checked" name="termosCheck" />
+            <span class="checkmark"></span>
+        </label>
+        <label>
+            <label class="container textCheck">Eu quero receber novidades e promoções da Lilihome no meu e-mail
+                <input type="checkbox" checked="checked" name="novidadesCheck"/>
+                <span class="checkmark"></span>
+            </label>
+        </label>
+        <div class="btnContainer">
+          <button type="submit" class="btn btn-outline-success buttonCad">Ok</button>
+        </div>
+        </form>
+      </div>
+      <div class="col-md-4 col-4"></div>
+    </div>
+  </div>
+</section>
+<!-- Bloco de código da Section -->
